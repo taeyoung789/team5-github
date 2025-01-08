@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .mypage-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .mypage-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .mypage-header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .user-info {
+            margin-bottom: 20px;
+        }
+        .user-info h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .user-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .actions a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .actions a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="mypage-container">
+        <div class="mypage-header">
+            <h1>My Page</h1>
+        </div>
+        <div class="user-info">
+            <h2>User Information</h2>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Joined:</strong> January 1, 2025</p>
+        </div>
+        <div class="actions">
+            <a href="/edit-profile">Edit Profile</a>
+            <a href="/change-password">Change Password</a>
+            <a href="/view-orders">View Orders</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
